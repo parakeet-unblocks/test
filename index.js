@@ -13,7 +13,7 @@ App.use("/apps", Express.static(Path.join(__dirname, "apps")));
 App.use("/play", Express.static(Path.join(__dirname, "play")));
 App.use("/3", Express.static(Path.join(__dirname, "3")));
 */
-const targ = "https://educationbluesky.com"
+const targ = "https://maths.services/"
 const prox = createProxyMiddleware({
     target: targ,
     changeOrigin: true,
