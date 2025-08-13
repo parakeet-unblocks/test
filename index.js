@@ -25,6 +25,4 @@ app.get("/", (_Request, Response) => {
     Response.sendFile(path.join(__dirname, "apps", "index.html"));
 })
 app.use("/", prox);
-app.listen(5000, () => {
-    console.log("run");
-})
+
